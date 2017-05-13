@@ -1,0 +1,350 @@
+[
+  {
+    "downloadLink": "api/bundle?vid=com.ti.SIMPLELINK_CC2640R2_SDK__1.30.00.25&download=true&analyticsDevice=undefined&analyticsDevtool=undefined&analyticsPath=Software%2FSimpleLink%20CC2640R2%20SDK%2FExamples%2FDevelopment%20Tools%2FCC2640R2%20LaunchPad%2Fblestack%2Fsimple_peripheral%2FTI-RTOS%2FCCS%20Compiler%2Fsimple_peripheral_app%2FInclude",
+    "makeofflineLink": "api/bundles?vids=com.ti.SIMPLELINK_CC2640R2_SDK__1.30.00.25",
+    "removeofflineLink": "api/resources?id=0iGqUzCFRLcV7A&path=Software/SimpleLink CC2640R2 SDK/Examples/Development Tools/CC2640R2 LaunchPad/blestack/simple_peripheral/TI-RTOS/CCS Compiler/simple_peripheral_app/Include&removeoffline=true",
+    "compiler": [
+      "ccs"
+    ],
+    "advanced": {
+      "overrideProjectSpecDeviceId": true
+    },
+    "name": "gapbondmgr.h",
+    "devtools": [
+      "CC2640R2 LaunchPad"
+    ],
+    "kernel": [
+      "tirtos"
+    ],
+    "resourceType": "file",
+    "coreTypes": [
+      "Cortex M.CC2640R2F"
+    ],
+    "_id": "0iGqUzCFRLcV7A",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "dependencies": [
+      {
+        "refId": "com.ti.SIMPLELINK_CC2640R2_SDK",
+        "version": "1.30.0.25",
+        "require": "optional",
+        "message": "Required for building the project.",
+        "semver": "1.30.0"
+      },
+      {
+        "refId": "com.ti.rtsc.XDCtools",
+        "version": "3.32.1.22_core",
+        "require": "optional",
+        "message": "Required for building the project.",
+        "semver": "3.32.1"
+      }
+    ],
+    "link": "api/linkTo/0iGqUzCFRLcV7A?analyticsDevice=undefined&analyticsDevtool=undefined&analyticsPath=Software%2FSimpleLink%20CC2640R2%20SDK%2FExamples%2FDevelopment%20Tools%2FCC2640R2%20LaunchPad%2Fblestack%2Fsimple_peripheral%2FTI-RTOS%2FCCS%20Compiler%2Fsimple_peripheral_app%2FInclude&extname=.h",
+    "package": "SimpleLink CC2640R2 SDK",
+    "packageId": "com.ti.SIMPLELINK_CC2640R2_SDK",
+    "packageVersion": "1.30.00.25",
+    "packageUId": "com.ti.SIMPLELINK_CC2640R2_SDK__1.30.00.25",
+    "packagePath": "simplelink_cc2640r2_sdk_1_30_00_25",
+    "allowPartialDownload": false,
+    "license": "simplelink_cc2640r2_sdk_1_30_00_25/license_simplelink_cc2640r2_sdk_1_30_00_25.txt",
+    "linkType": "local",
+    "implictDependencyFile": "simplelink_cc2640r2_sdk_1_30_00_25/.metadata/.tirex/.dependencies/spec_17.dependency.tirex.json",
+    "parentID": "0iG4hi2O0C_0qM",
+    "isIncludedFile": true,
+    "type": "resource",
+    "text": "gapbondmgr.h",
+    "url": "/api/resources?path=Software/SimpleLink%20CC2640R2%20SDK/Examples/Development%20Tools/CC2640R2%20LaunchPad/blestack/simple_peripheral/TI-RTOS/CCS%20Compiler/simple_peripheral_app/Include&package=c2000ware_software_package__1.00.00.00::com.ti.SIMPLELINK_CC13X0_SDK__1.30.00.06::com.ti.SIMPLELINK_CC2640R2_SDK__1.30.00.25::com.ti.SIMPLELINK_MSP432_SDK_BLUETOOTH_PLUGIN__1.10.00.42::cc3200sdk__1.1.0.0::sitara__1.02.00.00::com.ti.SIMPLELINK_MSP432_SDK__1.30.00.40::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.30.00.03::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.30.00.27::com.ti.SIMPLELINK_CC32XX_SDK__1.30.01.03::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43X__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.00.10::msp430ware__3.60.00.10",
+    "packageOrder": 26,
+    "offline": "true"
+  },
+  {
+    "downloadLink": "api/bundle?vid=com.ti.SIMPLELINK_CC2640R2_SDK__1.30.00.25&download=true&analyticsDevice=undefined&analyticsDevtool=undefined&analyticsPath=Software%2FSimpleLink%20CC2640R2%20SDK%2FExamples%2FDevelopment%20Tools%2FCC2640R2%20LaunchPad%2Fblestack%2Fsimple_peripheral%2FTI-RTOS%2FCCS%20Compiler%2Fsimple_peripheral_app%2FInclude",
+    "makeofflineLink": "api/bundles?vids=com.ti.SIMPLELINK_CC2640R2_SDK__1.30.00.25",
+    "removeofflineLink": "api/resources?id=0iGPlqI6HOBG0o&path=Software/SimpleLink CC2640R2 SDK/Examples/Development Tools/CC2640R2 LaunchPad/blestack/simple_peripheral/TI-RTOS/CCS Compiler/simple_peripheral_app/Include&removeoffline=true",
+    "compiler": [
+      "ccs"
+    ],
+    "advanced": {
+      "overrideProjectSpecDeviceId": true
+    },
+    "name": "gap.h",
+    "devtools": [
+      "CC2640R2 LaunchPad"
+    ],
+    "kernel": [
+      "tirtos"
+    ],
+    "resourceType": "file",
+    "coreTypes": [
+      "Cortex M.CC2640R2F"
+    ],
+    "_id": "0iGPlqI6HOBG0o",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "dependencies": [
+      {
+        "refId": "com.ti.SIMPLELINK_CC2640R2_SDK",
+        "version": "1.30.0.25",
+        "require": "optional",
+        "message": "Required for building the project.",
+        "semver": "1.30.0"
+      },
+      {
+        "refId": "com.ti.rtsc.XDCtools",
+        "version": "3.32.1.22_core",
+        "require": "optional",
+        "message": "Required for building the project.",
+        "semver": "3.32.1"
+      }
+    ],
+    "link": "api/linkTo/0iGPlqI6HOBG0o?analyticsDevice=undefined&analyticsDevtool=undefined&analyticsPath=Software%2FSimpleLink%20CC2640R2%20SDK%2FExamples%2FDevelopment%20Tools%2FCC2640R2%20LaunchPad%2Fblestack%2Fsimple_peripheral%2FTI-RTOS%2FCCS%20Compiler%2Fsimple_peripheral_app%2FInclude&extname=.h",
+    "package": "SimpleLink CC2640R2 SDK",
+    "packageId": "com.ti.SIMPLELINK_CC2640R2_SDK",
+    "packageVersion": "1.30.00.25",
+    "packageUId": "com.ti.SIMPLELINK_CC2640R2_SDK__1.30.00.25",
+    "packagePath": "simplelink_cc2640r2_sdk_1_30_00_25",
+    "allowPartialDownload": false,
+    "license": "simplelink_cc2640r2_sdk_1_30_00_25/license_simplelink_cc2640r2_sdk_1_30_00_25.txt",
+    "linkType": "local",
+    "implictDependencyFile": "simplelink_cc2640r2_sdk_1_30_00_25/.metadata/.tirex/.dependencies/spec_17.dependency.tirex.json",
+    "parentID": "0iG4hi2O0C_0qM",
+    "isIncludedFile": true,
+    "type": "resource",
+    "text": "gap.h",
+    "url": "/api/resources?path=Software/SimpleLink%20CC2640R2%20SDK/Examples/Development%20Tools/CC2640R2%20LaunchPad/blestack/simple_peripheral/TI-RTOS/CCS%20Compiler/simple_peripheral_app/Include&package=c2000ware_software_package__1.00.00.00::com.ti.SIMPLELINK_CC13X0_SDK__1.30.00.06::com.ti.SIMPLELINK_CC2640R2_SDK__1.30.00.25::com.ti.SIMPLELINK_MSP432_SDK_BLUETOOTH_PLUGIN__1.10.00.42::cc3200sdk__1.1.0.0::sitara__1.02.00.00::com.ti.SIMPLELINK_MSP432_SDK__1.30.00.40::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.30.00.03::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.30.00.27::com.ti.SIMPLELINK_CC32XX_SDK__1.30.01.03::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43X__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.00.10::msp430ware__3.60.00.10",
+    "packageOrder": 26,
+    "offline": "true"
+  },
+  {
+    "downloadLink": "api/bundle?vid=com.ti.SIMPLELINK_CC2640R2_SDK__1.30.00.25&download=true&analyticsDevice=undefined&analyticsDevtool=undefined&analyticsPath=Software%2FSimpleLink%20CC2640R2%20SDK%2FExamples%2FDevelopment%20Tools%2FCC2640R2%20LaunchPad%2Fblestack%2Fsimple_peripheral%2FTI-RTOS%2FCCS%20Compiler%2Fsimple_peripheral_app%2FInclude",
+    "makeofflineLink": "api/bundles?vids=com.ti.SIMPLELINK_CC2640R2_SDK__1.30.00.25",
+    "removeofflineLink": "api/resources?id=0iGmxTkMK1XMk0&path=Software/SimpleLink CC2640R2 SDK/Examples/Development Tools/CC2640R2 LaunchPad/blestack/simple_peripheral/TI-RTOS/CCS Compiler/simple_peripheral_app/Include&removeoffline=true",
+    "compiler": [
+      "ccs"
+    ],
+    "advanced": {
+      "overrideProjectSpecDeviceId": true
+    },
+    "name": "gapgattserver.h",
+    "devtools": [
+      "CC2640R2 LaunchPad"
+    ],
+    "kernel": [
+      "tirtos"
+    ],
+    "resourceType": "file",
+    "coreTypes": [
+      "Cortex M.CC2640R2F"
+    ],
+    "_id": "0iGmxTkMK1XMk0",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "dependencies": [
+      {
+        "refId": "com.ti.SIMPLELINK_CC2640R2_SDK",
+        "version": "1.30.0.25",
+        "require": "optional",
+        "message": "Required for building the project.",
+        "semver": "1.30.0"
+      },
+      {
+        "refId": "com.ti.rtsc.XDCtools",
+        "version": "3.32.1.22_core",
+        "require": "optional",
+        "message": "Required for building the project.",
+        "semver": "3.32.1"
+      }
+    ],
+    "link": "api/linkTo/0iGmxTkMK1XMk0?analyticsDevice=undefined&analyticsDevtool=undefined&analyticsPath=Software%2FSimpleLink%20CC2640R2%20SDK%2FExamples%2FDevelopment%20Tools%2FCC2640R2%20LaunchPad%2Fblestack%2Fsimple_peripheral%2FTI-RTOS%2FCCS%20Compiler%2Fsimple_peripheral_app%2FInclude&extname=.h",
+    "package": "SimpleLink CC2640R2 SDK",
+    "packageId": "com.ti.SIMPLELINK_CC2640R2_SDK",
+    "packageVersion": "1.30.00.25",
+    "packageUId": "com.ti.SIMPLELINK_CC2640R2_SDK__1.30.00.25",
+    "packagePath": "simplelink_cc2640r2_sdk_1_30_00_25",
+    "allowPartialDownload": false,
+    "license": "simplelink_cc2640r2_sdk_1_30_00_25/license_simplelink_cc2640r2_sdk_1_30_00_25.txt",
+    "linkType": "local",
+    "implictDependencyFile": "simplelink_cc2640r2_sdk_1_30_00_25/.metadata/.tirex/.dependencies/spec_17.dependency.tirex.json",
+    "parentID": "0iG4hi2O0C_0qM",
+    "isIncludedFile": true,
+    "type": "resource",
+    "text": "gapgattserver.h",
+    "url": "/api/resources?path=Software/SimpleLink%20CC2640R2%20SDK/Examples/Development%20Tools/CC2640R2%20LaunchPad/blestack/simple_peripheral/TI-RTOS/CCS%20Compiler/simple_peripheral_app/Include&package=c2000ware_software_package__1.00.00.00::com.ti.SIMPLELINK_CC13X0_SDK__1.30.00.06::com.ti.SIMPLELINK_CC2640R2_SDK__1.30.00.25::com.ti.SIMPLELINK_MSP432_SDK_BLUETOOTH_PLUGIN__1.10.00.42::cc3200sdk__1.1.0.0::sitara__1.02.00.00::com.ti.SIMPLELINK_MSP432_SDK__1.30.00.40::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.30.00.03::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.30.00.27::com.ti.SIMPLELINK_CC32XX_SDK__1.30.01.03::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43X__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.00.10::msp430ware__3.60.00.10",
+    "packageOrder": 26,
+    "offline": "true"
+  },
+  {
+    "downloadLink": "api/bundle?vid=com.ti.SIMPLELINK_CC2640R2_SDK__1.30.00.25&download=true&analyticsDevice=undefined&analyticsDevtool=undefined&analyticsPath=Software%2FSimpleLink%20CC2640R2%20SDK%2FExamples%2FDevelopment%20Tools%2FCC2640R2%20LaunchPad%2Fblestack%2Fsimple_peripheral%2FTI-RTOS%2FCCS%20Compiler%2Fsimple_peripheral_app%2FInclude",
+    "makeofflineLink": "api/bundles?vids=com.ti.SIMPLELINK_CC2640R2_SDK__1.30.00.25",
+    "removeofflineLink": "api/resources?id=0iGOMBoxfDtQuI&path=Software/SimpleLink CC2640R2 SDK/Examples/Development Tools/CC2640R2 LaunchPad/blestack/simple_peripheral/TI-RTOS/CCS Compiler/simple_peripheral_app/Include&removeoffline=true",
+    "compiler": [
+      "ccs"
+    ],
+    "advanced": {
+      "overrideProjectSpecDeviceId": true
+    },
+    "name": "gatt.h",
+    "devtools": [
+      "CC2640R2 LaunchPad"
+    ],
+    "kernel": [
+      "tirtos"
+    ],
+    "resourceType": "file",
+    "coreTypes": [
+      "Cortex M.CC2640R2F"
+    ],
+    "_id": "0iGOMBoxfDtQuI",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "dependencies": [
+      {
+        "refId": "com.ti.SIMPLELINK_CC2640R2_SDK",
+        "version": "1.30.0.25",
+        "require": "optional",
+        "message": "Required for building the project.",
+        "semver": "1.30.0"
+      },
+      {
+        "refId": "com.ti.rtsc.XDCtools",
+        "version": "3.32.1.22_core",
+        "require": "optional",
+        "message": "Required for building the project.",
+        "semver": "3.32.1"
+      }
+    ],
+    "link": "api/linkTo/0iGOMBoxfDtQuI?analyticsDevice=undefined&analyticsDevtool=undefined&analyticsPath=Software%2FSimpleLink%20CC2640R2%20SDK%2FExamples%2FDevelopment%20Tools%2FCC2640R2%20LaunchPad%2Fblestack%2Fsimple_peripheral%2FTI-RTOS%2FCCS%20Compiler%2Fsimple_peripheral_app%2FInclude&extname=.h",
+    "package": "SimpleLink CC2640R2 SDK",
+    "packageId": "com.ti.SIMPLELINK_CC2640R2_SDK",
+    "packageVersion": "1.30.00.25",
+    "packageUId": "com.ti.SIMPLELINK_CC2640R2_SDK__1.30.00.25",
+    "packagePath": "simplelink_cc2640r2_sdk_1_30_00_25",
+    "allowPartialDownload": false,
+    "license": "simplelink_cc2640r2_sdk_1_30_00_25/license_simplelink_cc2640r2_sdk_1_30_00_25.txt",
+    "linkType": "local",
+    "implictDependencyFile": "simplelink_cc2640r2_sdk_1_30_00_25/.metadata/.tirex/.dependencies/spec_17.dependency.tirex.json",
+    "parentID": "0iG4hi2O0C_0qM",
+    "isIncludedFile": true,
+    "type": "resource",
+    "text": "gatt.h",
+    "url": "/api/resources?path=Software/SimpleLink%20CC2640R2%20SDK/Examples/Development%20Tools/CC2640R2%20LaunchPad/blestack/simple_peripheral/TI-RTOS/CCS%20Compiler/simple_peripheral_app/Include&package=c2000ware_software_package__1.00.00.00::com.ti.SIMPLELINK_CC13X0_SDK__1.30.00.06::com.ti.SIMPLELINK_CC2640R2_SDK__1.30.00.25::com.ti.SIMPLELINK_MSP432_SDK_BLUETOOTH_PLUGIN__1.10.00.42::cc3200sdk__1.1.0.0::sitara__1.02.00.00::com.ti.SIMPLELINK_MSP432_SDK__1.30.00.40::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.30.00.03::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.30.00.27::com.ti.SIMPLELINK_CC32XX_SDK__1.30.01.03::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43X__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.00.10::msp430ware__3.60.00.10",
+    "packageOrder": 26,
+    "offline": "true"
+  },
+  {
+    "downloadLink": "api/bundle?vid=com.ti.SIMPLELINK_CC2640R2_SDK__1.30.00.25&download=true&analyticsDevice=undefined&analyticsDevtool=undefined&analyticsPath=Software%2FSimpleLink%20CC2640R2%20SDK%2FExamples%2FDevelopment%20Tools%2FCC2640R2%20LaunchPad%2Fblestack%2Fsimple_peripheral%2FTI-RTOS%2FCCS%20Compiler%2Fsimple_peripheral_app%2FInclude",
+    "makeofflineLink": "api/bundles?vids=com.ti.SIMPLELINK_CC2640R2_SDK__1.30.00.25",
+    "removeofflineLink": "api/resources?id=0iGkW3XE-guAXM&path=Software/SimpleLink CC2640R2 SDK/Examples/Development Tools/CC2640R2 LaunchPad/blestack/simple_peripheral/TI-RTOS/CCS Compiler/simple_peripheral_app/Include&removeoffline=true",
+    "compiler": [
+      "ccs"
+    ],
+    "advanced": {
+      "overrideProjectSpecDeviceId": true
+    },
+    "name": "hci.h",
+    "devtools": [
+      "CC2640R2 LaunchPad"
+    ],
+    "kernel": [
+      "tirtos"
+    ],
+    "resourceType": "file",
+    "coreTypes": [
+      "Cortex M.CC2640R2F"
+    ],
+    "_id": "0iGkW3XE-guAXM",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "dependencies": [
+      {
+        "refId": "com.ti.SIMPLELINK_CC2640R2_SDK",
+        "version": "1.30.0.25",
+        "require": "optional",
+        "message": "Required for building the project.",
+        "semver": "1.30.0"
+      },
+      {
+        "refId": "com.ti.rtsc.XDCtools",
+        "version": "3.32.1.22_core",
+        "require": "optional",
+        "message": "Required for building the project.",
+        "semver": "3.32.1"
+      }
+    ],
+    "link": "api/linkTo/0iGkW3XE-guAXM?analyticsDevice=undefined&analyticsDevtool=undefined&analyticsPath=Software%2FSimpleLink%20CC2640R2%20SDK%2FExamples%2FDevelopment%20Tools%2FCC2640R2%20LaunchPad%2Fblestack%2Fsimple_peripheral%2FTI-RTOS%2FCCS%20Compiler%2Fsimple_peripheral_app%2FInclude&extname=.h",
+    "package": "SimpleLink CC2640R2 SDK",
+    "packageId": "com.ti.SIMPLELINK_CC2640R2_SDK",
+    "packageVersion": "1.30.00.25",
+    "packageUId": "com.ti.SIMPLELINK_CC2640R2_SDK__1.30.00.25",
+    "packagePath": "simplelink_cc2640r2_sdk_1_30_00_25",
+    "allowPartialDownload": false,
+    "license": "simplelink_cc2640r2_sdk_1_30_00_25/license_simplelink_cc2640r2_sdk_1_30_00_25.txt",
+    "linkType": "local",
+    "implictDependencyFile": "simplelink_cc2640r2_sdk_1_30_00_25/.metadata/.tirex/.dependencies/spec_17.dependency.tirex.json",
+    "parentID": "0iG4hi2O0C_0qM",
+    "isIncludedFile": true,
+    "type": "resource",
+    "text": "hci.h",
+    "url": "/api/resources?path=Software/SimpleLink%20CC2640R2%20SDK/Examples/Development%20Tools/CC2640R2%20LaunchPad/blestack/simple_peripheral/TI-RTOS/CCS%20Compiler/simple_peripheral_app/Include&package=c2000ware_software_package__1.00.00.00::com.ti.SIMPLELINK_CC13X0_SDK__1.30.00.06::com.ti.SIMPLELINK_CC2640R2_SDK__1.30.00.25::com.ti.SIMPLELINK_MSP432_SDK_BLUETOOTH_PLUGIN__1.10.00.42::cc3200sdk__1.1.0.0::sitara__1.02.00.00::com.ti.SIMPLELINK_MSP432_SDK__1.30.00.40::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.30.00.03::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.30.00.27::com.ti.SIMPLELINK_CC32XX_SDK__1.30.01.03::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43X__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.00.10::msp430ware__3.60.00.10",
+    "packageOrder": 26,
+    "offline": "true"
+  },
+  {
+    "downloadLink": "api/bundle?vid=com.ti.SIMPLELINK_CC2640R2_SDK__1.30.00.25&download=true&analyticsDevice=undefined&analyticsDevtool=undefined&analyticsPath=Software%2FSimpleLink%20CC2640R2%20SDK%2FExamples%2FDevelopment%20Tools%2FCC2640R2%20LaunchPad%2Fblestack%2Fsimple_peripheral%2FTI-RTOS%2FCCS%20Compiler%2Fsimple_peripheral_app%2FInclude",
+    "makeofflineLink": "api/bundles?vids=com.ti.SIMPLELINK_CC2640R2_SDK__1.30.00.25",
+    "removeofflineLink": "api/resources?id=0iGbigivp4VVc8&path=Software/SimpleLink CC2640R2 SDK/Examples/Development Tools/CC2640R2 LaunchPad/blestack/simple_peripheral/TI-RTOS/CCS Compiler/simple_peripheral_app/Include&removeoffline=true",
+    "compiler": [
+      "ccs"
+    ],
+    "advanced": {
+      "overrideProjectSpecDeviceId": true
+    },
+    "name": "osal_snv.h",
+    "devtools": [
+      "CC2640R2 LaunchPad"
+    ],
+    "kernel": [
+      "tirtos"
+    ],
+    "resourceType": "file",
+    "coreTypes": [
+      "Cortex M.CC2640R2F"
+    ],
+    "_id": "0iGbigivp4VVc8",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "dependencies": [
+      {
+        "refId": "com.ti.SIMPLELINK_CC2640R2_SDK",
+        "version": "1.30.0.25",
+        "require": "optional",
+        "message": "Required for building the project.",
+        "semver": "1.30.0"
+      },
+      {
+        "refId": "com.ti.rtsc.XDCtools",
+        "version": "3.32.1.22_core",
+        "require": "optional",
+        "message": "Required for building the project.",
+        "semver": "3.32.1"
+      }
+    ],
+    "link": "api/linkTo/0iGbigivp4VVc8?analyticsDevice=undefined&analyticsDevtool=undefined&analyticsPath=Software%2FSimpleLink%20CC2640R2%20SDK%2FExamples%2FDevelopment%20Tools%2FCC2640R2%20LaunchPad%2Fblestack%2Fsimple_peripheral%2FTI-RTOS%2FCCS%20Compiler%2Fsimple_peripheral_app%2FInclude&extname=.h",
+    "package": "SimpleLink CC2640R2 SDK",
+    "packageId": "com.ti.SIMPLELINK_CC2640R2_SDK",
+    "packageVersion": "1.30.00.25",
+    "packageUId": "com.ti.SIMPLELINK_CC2640R2_SDK__1.30.00.25",
+    "packagePath": "simplelink_cc2640r2_sdk_1_30_00_25",
+    "allowPartialDownload": false,
+    "license": "simplelink_cc2640r2_sdk_1_30_00_25/license_simplelink_cc2640r2_sdk_1_30_00_25.txt",
+    "linkType": "local",
+    "implictDependencyFile": "simplelink_cc2640r2_sdk_1_30_00_25/.metadata/.tirex/.dependencies/spec_17.dependency.tirex.json",
+    "parentID": "0iG4hi2O0C_0qM",
+    "isIncludedFile": true,
+    "type": "resource",
+    "text": "osal_snv.h",
+    "url": "/api/resources?path=Software/SimpleLink%20CC2640R2%20SDK/Examples/Development%20Tools/CC2640R2%20LaunchPad/blestack/simple_peripheral/TI-RTOS/CCS%20Compiler/simple_peripheral_app/Include&package=c2000ware_software_package__1.00.00.00::com.ti.SIMPLELINK_CC13X0_SDK__1.30.00.06::com.ti.SIMPLELINK_CC2640R2_SDK__1.30.00.25::com.ti.SIMPLELINK_MSP432_SDK_BLUETOOTH_PLUGIN__1.10.00.42::cc3200sdk__1.1.0.0::sitara__1.02.00.00::com.ti.SIMPLELINK_MSP432_SDK__1.30.00.40::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.30.00.03::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.30.00.27::com.ti.SIMPLELINK_CC32XX_SDK__1.30.01.03::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43X__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.00.10::msp430ware__3.60.00.10",
+    "packageOrder": 26,
+    "offline": "true"
+  }
+]

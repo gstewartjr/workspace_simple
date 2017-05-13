@@ -1,0 +1,8 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+USER_OBJS :=
+
+LIBS := -l"C:/ti/r2/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/devices/cc26x0r2/driverlib/bin/ccs/driverlib.lib" -l"C:/Users/gstew/ti_ws/workspace_v7_b\ -\ Copy/simple_peripheral_cc2640r2lp_stack/FlashROM/lib_linker.cmd" -l"C:/Users/gstew/ti_ws/workspace_v7_b\ -\ Copy/simple_peripheral_cc2640r2lp_stack/FlashROM/ble_r2.symbols" -l"C:/ti/r2/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/common/cc26xx/ccs/cc26xx_stack.cmd" -llibc.a
+

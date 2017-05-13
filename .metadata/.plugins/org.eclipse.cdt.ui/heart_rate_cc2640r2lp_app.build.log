@@ -1,0 +1,7 @@
+
+**** Build of configuration FlashROM_StackLibrary for project heart_rate_cc2640r2lp_app ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+gmake[1]: 'heart_rate_cc2640r2lp_app.out' is up to date.
+
+**** Build Finished ****

@@ -1,0 +1,1057 @@
+[
+  {
+    "text": "heart_rate_app",
+    "type": "folder",
+    "numChildren": 0,
+    "numChildrenLocal": 5,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "package": "SimpleLink CC2640R2 SDK BLE Example Pack",
+    "packageUId": "com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.30.00.27",
+    "url": "/api/resources?devtool=CC2640R2%20LaunchPad&package=c2000ware_software_package__1.00.00.00::com.ti.SIMPLELINK_CC13X0_SDK__1.30.00.06::com.ti.SIMPLELINK_CC2640R2_SDK__1.30.00.25::com.ti.SIMPLELINK_MSP432_SDK_BLUETOOTH_PLUGIN__1.10.00.42::cc3200sdk__1.1.0.0::sitara__1.02.00.00::com.ti.SIMPLELINK_MSP432_SDK__1.30.00.40::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.30.00.03::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.30.00.27::com.ti.SIMPLELINK_CC32XX_SDK__1.30.01.03::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43X__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.00.10::msp430ware__3.60.00.10&path=Software/SimpleLink%20SDK%20Plugins/Example%20Packs/SimpleLink%20CC2640R2%20SDK%20BLE%20Example%20Pack/Examples/Development%20Tools/CC2640R2%20LaunchPad/bleapps/heart_rate/TI-RTOS/CCS%20Compiler",
+    "license": "simplelink_cc2640r2_sdk_ble_example_pack_1_30_00_27/license_simplelink_cc2640r2_sdk_ble_example_pack_1_30_00_27.txt",
+    "downloadLink": "api/bundle?vid=com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.30.00.27&download=true&id=pIt1_5zfio356g&includechildren=true",
+    "makeofflineLink": "api/bundles?vids=com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.30.00.27&id=pIt1_5zfio356g&includechildren=true",
+    "removeofflineLink": "api/resources?devtool=CC2640R2 LaunchPad&package=c2000ware_software_package__1.00.00.00::com.ti.SIMPLELINK_CC13X0_SDK__1.30.00.06::com.ti.SIMPLELINK_CC2640R2_SDK__1.30.00.25::com.ti.SIMPLELINK_MSP432_SDK_BLUETOOTH_PLUGIN__1.10.00.42::cc3200sdk__1.1.0.0::sitara__1.02.00.00::com.ti.SIMPLELINK_MSP432_SDK__1.30.00.40::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.30.00.03::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.30.00.27::com.ti.SIMPLELINK_CC32XX_SDK__1.30.01.03::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43X__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.00.10::msp430ware__3.60.00.10::com.ti.SIMPLELINK_ACADEMY_CC13X0SDK__1.12.00.00::com.ti.SIMPLELINK_ACADEMY_CC2640R2SDK__1.12.00.00::com.ti.SIMPLELINK_ACADEMY_CC32XXSDK__1.12.00.00::com.ti.SIMPLELINK_ACADEMY_MSP432SDK__1.12.00.00::ccs_training__1.00.00.06::xdsdebugprobes__1.00.00.00::sdtoutilities__1.00.00.00::msp432_devices__1.00.00.00::msp432_devtools__1.00.00.00::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc32xx_devices__1.00.00.00::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::cc32xx_devtools__1.00.00.00::mspdevtools__1.00.00.40::msp430_devices__1.00.00.00::msp430_devtools__1.00.00.00::c2000ware_devices_package__1.00.00.00::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00&path=Software/SimpleLink SDK Plugins/Example Packs/SimpleLink CC2640R2 SDK BLE Example Pack/Examples/Development Tools/CC2640R2 LaunchPad/bleapps/heart_rate/TI-RTOS/CCS Compiler/heart_rate_app&removeoffline=true&id=pIt1_5zfio356g&includechildren=true",
+    "compiler": [
+      "ccs"
+    ],
+    "resourceType": "projectSpec",
+    "devtools": [
+      "CC2640R2 LaunchPad"
+    ],
+    "name": "heart_rate_app",
+    "description": " ",
+    "advanced": {
+      "overrideProjectSpecDeviceId": true
+    },
+    "coreTypes": [
+      "Cortex M.CC2640R2F"
+    ],
+    "kernel": [
+      "tirtos"
+    ],
+    "_id": "pIt1_5zfio356g",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "dependencies": [
+      {
+        "refId": "com.ti.SIMPLELINK_CC2640R2_SDK",
+        "version": "1.30.0.25",
+        "require": "optional",
+        "message": "Required for building the project.",
+        "semver": "1.30.0"
+      },
+      {
+        "refId": "com.ti.rtsc.XDCtools",
+        "version": "3.32.1.22_core",
+        "require": "optional",
+        "message": "Required for building the project.",
+        "semver": "3.32.1"
+      }
+    ],
+    "link": "api/linkTo/pIt1_5zfio356g?analyticsDevice=undefined&analyticsDevtool=CC2640R2%20LaunchPad&analyticsPath=Software%2FSimpleLink%20SDK%20Plugins%2FExample%20Packs%2FSimpleLink%20CC2640R2%20SDK%20BLE%20Example%20Pack%2FExamples%2FDevelopment%20Tools%2FCC2640R2%20LaunchPad%2Fbleapps%2Fheart_rate%2FTI-RTOS%2FCCS%20Compiler&extname=.projectspec",
+    "packageId": "com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK",
+    "packageVersion": "1.30.00.27",
+    "packagePath": "simplelink_cc2640r2_sdk_ble_example_pack_1_30_00_27",
+    "linkType": "local",
+    "implictDependencyFile": "simplelink_cc2640r2_sdk_ble_example_pack_1_30_00_27/.metadata/.tirex/.dependencies/spec_4.dependency.tirex.json",
+    "hasIncludes": true,
+    "_originalJsonFile": "simplelink_cc2640r2_sdk_ble_example_pack_1_30_00_27/.metadata/.tirex/content.tirex.json",
+    "includedFilesForDownload": [
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/ti-rex-content/simplelink_cc2640r2_sdk_ble_example_pack_1_30_00_27/examples/rtos/windows/simplelink_cc2640r2_sdk_1_30_00_25/kernel/tirtos/packages/ti/dpl/lib/dpl_cc26x0r2.aem3"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/ti-rex-content/simplelink_cc2640r2_sdk_ble_example_pack_1_30_00_27/examples/rtos/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/common/cc26xx/ccs/cc26xx_app.cmd"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/ti-rex-content/simplelink_cc2640r2_sdk_ble_example_pack_1_30_00_27/examples/rtos/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/config/build_components.opt"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/ti-rex-content/simplelink_cc2640r2_sdk_ble_example_pack_1_30_00_27/examples/rtos/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/config/factory_config.opt"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/ti-rex-content/simplelink_cc2640r2_sdk_ble_example_pack_1_30_00_27/examples/rtos/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/devices/cc26x0r2/driverlib/bin/ccs/driverlib.lib"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/ti-rex-content/simplelink_cc2640r2_sdk_ble_example_pack_1_30_00_27/examples/rtos/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/display/lib/display.aem3"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/ti-rex-content/simplelink_cc2640r2_sdk_ble_example_pack_1_30_00_27/examples/rtos/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/drivers/lib/drivers_cc26x0r2.aem3"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/common/cc26xx/board_key.c"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/common/cc26xx/board_key.h"
+        }
+      },
+      "simplelink_cc2640r2_sdk_ble_example_pack_1_30_00_27/examples/rtos/CC2640R2_LAUNCHXL/bleapps/heart_rate/src/app/heart_rate.c",
+      "simplelink_cc2640r2_sdk_ble_example_pack_1_30_00_27/examples/rtos/CC2640R2_LAUNCHXL/bleapps/heart_rate/src/app/heart_rate.h",
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/common/cc26xx/util.c"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/common/cc26xx/util.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/profiles/roles/gapbondmgr.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/profiles/batt/cc26xx/battservice.c"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/profiles/batt/cc26xx/battservice.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/inc/gatt_profile_uuid.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/host/gatt_uuid.c"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/inc/gatt_uuid.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/host/gattservapp_util.c"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/profiles/heart_rate/cc26xx/heartrateservice.c"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/profiles/heart_rate/heartrateservice.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/profiles/roles/cc26xx/peripheral.c"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/profiles/roles/cc26xx/peripheral.h"
+        }
+      },
+      "simplelink_cc2640r2_sdk_ble_example_pack_1_30_00_27/examples/rtos/CC2640R2_LAUNCHXL/bleapps/heart_rate/tirtos/iar/config/ccfg_app_ble.c",
+      "simplelink_cc2640r2_sdk_ble_example_pack_1_30_00_27/examples/rtos/CC2640R2_LAUNCHXL/bleapps/heart_rate/src/app/main.c",
+      "simplelink_cc2640r2_sdk_ble_example_pack_1_30_00_27/examples/rtos/CC2640R2_LAUNCHXL/bleapps/heart_rate/tirtos/ccs/config/app_ble.cfg",
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/common/cc26xx/ecc/ECCROMCC26XX.c"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/common/cc26xx/ecc/ECCROMCC26XX.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/hal/src/target/_common/TRNGCC26XX.c"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/hal/src/target/_common/TRNGCC26XX.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/heapmgr/heapmgr.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/icall/src/icall.c"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/icall/src/inc/icall.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/icall/inc/icall_addrs.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/icall/src/icall_cc2650.c"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/icall/src/icall_platform.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/icall/src/icall_user_config.c"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/icall/app/ble_user_config.c"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/icall/inc/ble_user_config.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/icall/app/icall_api_lite.c"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/icall/inc/icall_apimsg.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/inc/gap.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/inc/gapgattserver.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/inc/gatt.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/inc/hci.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/osal/src/inc/osal_snv.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/profiles/dev_info/cc26xx/devinfoservice.c"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/profiles/dev_info/devinfoservice.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/target/board.c"
+        }
+      }
+    ],
+    "importProject": "api/importProject/pIt1_5zfio356g/Cortex M.CC2640R2F?connection=TIXDS110_Connection.xml&analyticsDevice=undefined&analyticsDevtool=CC2640R2%20LaunchPad&analyticsPath=Software%2FSimpleLink%20SDK%20Plugins%2FExample%20Packs%2FSimpleLink%20CC2640R2%20SDK%20BLE%20Example%20Pack%2FExamples%2FDevelopment%20Tools%2FCC2640R2%20LaunchPad%2Fbleapps%2Fheart_rate%2FTI-RTOS%2FCCS%20Compiler",
+    "packageOrder": 28,
+    "offline": "true"
+  },
+  {
+    "text": "heart_rate_stack_library",
+    "type": "folder",
+    "numChildren": 0,
+    "numChildrenLocal": 2,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "package": "SimpleLink CC2640R2 SDK BLE Example Pack",
+    "packageUId": "com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.30.00.27",
+    "url": "/api/resources?devtool=CC2640R2%20LaunchPad&package=c2000ware_software_package__1.00.00.00::com.ti.SIMPLELINK_CC13X0_SDK__1.30.00.06::com.ti.SIMPLELINK_CC2640R2_SDK__1.30.00.25::com.ti.SIMPLELINK_MSP432_SDK_BLUETOOTH_PLUGIN__1.10.00.42::cc3200sdk__1.1.0.0::sitara__1.02.00.00::com.ti.SIMPLELINK_MSP432_SDK__1.30.00.40::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.30.00.03::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.30.00.27::com.ti.SIMPLELINK_CC32XX_SDK__1.30.01.03::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43X__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.00.10::msp430ware__3.60.00.10&path=Software/SimpleLink%20SDK%20Plugins/Example%20Packs/SimpleLink%20CC2640R2%20SDK%20BLE%20Example%20Pack/Examples/Development%20Tools/CC2640R2%20LaunchPad/bleapps/heart_rate/TI-RTOS/CCS%20Compiler",
+    "license": "simplelink_cc2640r2_sdk_ble_example_pack_1_30_00_27/license_simplelink_cc2640r2_sdk_ble_example_pack_1_30_00_27.txt",
+    "downloadLink": "api/bundle?vid=com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.30.00.27&download=true&id=pItRMdkfkCg9Og&includechildren=true",
+    "makeofflineLink": "api/bundles?vids=com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.30.00.27&id=pItRMdkfkCg9Og&includechildren=true",
+    "removeofflineLink": "api/resources?devtool=CC2640R2 LaunchPad&package=c2000ware_software_package__1.00.00.00::com.ti.SIMPLELINK_CC13X0_SDK__1.30.00.06::com.ti.SIMPLELINK_CC2640R2_SDK__1.30.00.25::com.ti.SIMPLELINK_MSP432_SDK_BLUETOOTH_PLUGIN__1.10.00.42::cc3200sdk__1.1.0.0::sitara__1.02.00.00::com.ti.SIMPLELINK_MSP432_SDK__1.30.00.40::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.30.00.03::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.30.00.27::com.ti.SIMPLELINK_CC32XX_SDK__1.30.01.03::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43X__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.00.10::msp430ware__3.60.00.10::com.ti.SIMPLELINK_ACADEMY_CC13X0SDK__1.12.00.00::com.ti.SIMPLELINK_ACADEMY_CC2640R2SDK__1.12.00.00::com.ti.SIMPLELINK_ACADEMY_CC32XXSDK__1.12.00.00::com.ti.SIMPLELINK_ACADEMY_MSP432SDK__1.12.00.00::ccs_training__1.00.00.06::xdsdebugprobes__1.00.00.00::sdtoutilities__1.00.00.00::msp432_devices__1.00.00.00::msp432_devtools__1.00.00.00::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc32xx_devices__1.00.00.00::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::cc32xx_devtools__1.00.00.00::mspdevtools__1.00.00.40::msp430_devices__1.00.00.00::msp430_devtools__1.00.00.00::c2000ware_devices_package__1.00.00.00::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00&path=Software/SimpleLink SDK Plugins/Example Packs/SimpleLink CC2640R2 SDK BLE Example Pack/Examples/Development Tools/CC2640R2 LaunchPad/bleapps/heart_rate/TI-RTOS/CCS Compiler/heart_rate_stack_library&removeoffline=true&id=pItRMdkfkCg9Og&includechildren=true",
+    "compiler": [
+      "ccs"
+    ],
+    "resourceType": "projectSpec",
+    "devtools": [
+      "CC2640R2 LaunchPad"
+    ],
+    "name": "heart_rate_stack_library",
+    "description": " ",
+    "advanced": {
+      "overrideProjectSpecDeviceId": true
+    },
+    "coreTypes": [
+      "Cortex M.CC2640R2F"
+    ],
+    "kernel": [
+      "tirtos"
+    ],
+    "_id": "pItRMdkfkCg9Og",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "dependencies": [
+      {
+        "refId": "com.ti.SIMPLELINK_CC2640R2_SDK",
+        "version": "1.30.0.25",
+        "require": "optional",
+        "message": "Required for building the project.",
+        "semver": "1.30.0"
+      },
+      {
+        "refId": "com.ti.rtsc.XDCtools",
+        "version": "3.50.0.10",
+        "require": "optional",
+        "message": "Required for building the project.",
+        "semver": "3.50.0"
+      }
+    ],
+    "link": "api/linkTo/pItRMdkfkCg9Og?analyticsDevice=undefined&analyticsDevtool=CC2640R2%20LaunchPad&analyticsPath=Software%2FSimpleLink%20SDK%20Plugins%2FExample%20Packs%2FSimpleLink%20CC2640R2%20SDK%20BLE%20Example%20Pack%2FExamples%2FDevelopment%20Tools%2FCC2640R2%20LaunchPad%2Fbleapps%2Fheart_rate%2FTI-RTOS%2FCCS%20Compiler&extname=.projectspec",
+    "packageId": "com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK",
+    "packageVersion": "1.30.00.27",
+    "packagePath": "simplelink_cc2640r2_sdk_ble_example_pack_1_30_00_27",
+    "linkType": "local",
+    "implictDependencyFile": "simplelink_cc2640r2_sdk_ble_example_pack_1_30_00_27/.metadata/.tirex/.dependencies/spec_5.dependency.tirex.json",
+    "hasIncludes": true,
+    "_originalJsonFile": "simplelink_cc2640r2_sdk_ble_example_pack_1_30_00_27/.metadata/.tirex/content.tirex.json",
+    "includedFilesForDownload": [
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/ti-rex-content/simplelink_cc2640r2_sdk_ble_example_pack_1_30_00_27/examples/rtos/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/config/build_components.opt"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/ti-rex-content/simplelink_cc2640r2_sdk_ble_example_pack_1_30_00_27/examples/rtos/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/config/factory_config.opt"
+        }
+      },
+      "simplelink_cc2640r2_sdk_ble_example_pack_1_30_00_27/examples/rtos/CC2640R2_LAUNCHXL/bleapps/heart_rate/tirtos/iar/stack/build_config.opt",
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/hal/src/common/hal_assert.c"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/hal/src/inc/hal_adc.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/hal/src/inc/hal_assert.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/hal/src/inc/hal_board.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/hal/src/inc/hal_defs.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/hal/src/inc/hal_key.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/hal/src/inc/hal_lcd.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/hal/src/inc/hal_led.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/hal/src/inc/hal_sleep.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/hal/src/inc/hal_timer.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/hal/src/inc/hal_uart.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/hal/src/target/_common/hal_board_cfg.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/hal/src/target/_common/hal_flash_wrapper.c"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/hal/src/target/_common/hal_rtc_wrapper.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/hal/src/target/_common/hal_trng_wrapper.c"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/hal/src/target/_common/hal_trng_wrapper.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/hal/src/target/_common/hal_mcu.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/host/gatt_uuid.c"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/inc/gatt_uuid.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/icall/inc/ble_dispatch.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/icall/stack/ble_dispatch_JT.c"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/icall/stack/ble_dispatch_lite.c"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/icall/src/icall_lite_translation.c"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/inc/att.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/inc/gap.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/inc/gatt.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/inc/gatt_uuid.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/inc/hci.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/inc/l2cap.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/inc/linkdb.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/controller/cc26xx_r2/inc/ll.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/inc/sm.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/common/cc26xx/npi/stack/npi.c"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/common/cc26xx/npi/stack/npi.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/osal/src/inc/comdef.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/osal/src/common/osal.c"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/osal/src/inc/osal.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/osal/src/common/osal_bufmgr.c"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/osal/src/inc/osal_bufmgr.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/osal/src/common/osal_cbtimer.c"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/osal/src/inc/osal_cbtimer.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/osal/src/common/osal_clock.c"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/osal/src/inc/osal_clock.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/osal/src/inc/osal_memory.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/osal/src/common/osal_memory_icall.c"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/osal/src/common/osal_pwrmgr.c"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/osal/src/inc/osal_pwrmgr.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/osal/src/inc/osal_snv.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/osal/src/mcu/cc26xx/osal_snv_wrapper.c"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/osal/src/inc/osal_task.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/osal/src/common/osal_timers.c"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/osal/src/inc/osal_timers.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/profiles/roles/gap.c"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/profiles/roles/gapbondmgr.c"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/profiles/roles/gapbondmgr.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/inc/gapgattserver.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/inc/gattservapp.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/host/gattservapp_util.c"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/host/sm_ecc.c"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/rom/r2/common_rom_init.c"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/rom/r2/rom_flash_jt.h"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/rom/r2/rom_init.c"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/icall/stack/ble_user_config.c"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/common/cc26xx/icall_startup.c"
+        }
+      },
+      "simplelink_cc2640r2_sdk_ble_example_pack_1_30_00_27/examples/rtos/CC2640R2_LAUNCHXL/bleapps/heart_rate/src/stack/osal_icall_ble.c",
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/config/build_components.opt"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/common/cc26xx/onboard.c"
+        }
+      },
+      {
+        "error": {
+          "errno": -2,
+          "code": "ENOENT",
+          "syscall": "stat",
+          "path": "/home/auser/ccs-cloud-storage/ti-rex/git/windows/simplelink_cc2640r2_sdk_1_30_00_25/source/ti/blestack/common/cc26xx/onboard.h"
+        }
+      }
+    ],
+    "importProject": "api/importProject/pItRMdkfkCg9Og/Cortex M.CC2640R2F?connection=TIXDS110_Connection.xml&analyticsDevice=undefined&analyticsDevtool=CC2640R2%20LaunchPad&analyticsPath=Software%2FSimpleLink%20SDK%20Plugins%2FExample%20Packs%2FSimpleLink%20CC2640R2%20SDK%20BLE%20Example%20Pack%2FExamples%2FDevelopment%20Tools%2FCC2640R2%20LaunchPad%2Fbleapps%2Fheart_rate%2FTI-RTOS%2FCCS%20Compiler",
+    "packageOrder": 28,
+    "offline": "true"
+  }
+]
