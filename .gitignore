@@ -19,8 +19,8 @@ $RECYCLE.BIN/
 *.xml
 *.java
 
-FlashrROM/
-
+FlashrROM\
+simple_peripheral_cc2640r2lp_app\FlashROM
 
 # Windows shortcuts
 *.lnk
