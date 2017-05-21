@@ -16,6 +16,10 @@ $RECYCLE.BIN/
 *.mk
 *.out
 *.map
+*.xml
+*.java
+
+FlashrROM/
 
 
 # Windows shortcuts
